@@ -1,0 +1,21 @@
+
+    <html>
+    <head>
+    <meta charset="UTF-8">
+    <style>
+        table { border-collapse: collapse; }
+        th { background:#6d28d9; color:white; font-weight:bold; border:1px solid #999; padding:8px; }
+        td { border:1px solid #999; padding:6px; }
+    </style>
+    </head>
+    <body>
+
+    <h2>Medicine Inventory Report</h2>
+    <p>Generated: 15 Aug 2026 11:12:31</p>
+
+    <table>
+    <tr>
+        <th>SKU</th><th>Inventory Name</th><th>Strength</th><th>Unit</th><th>Dosage Form</th>
+        <th>Generic Name</th><th>Category</th><th>Batch Number</th><th>Expiration Date</th>
+        <th>Quantity</th><th>Low Stock Threshold</th><th>Status</th>
+    </tr><tr><td>M002</td><td>Amoxicillin</td><td>500</td><td>mg</td><td>Capsule</td><td>Amoxicillin Trihydrate</td><td>Antibiotics</td><td>BCH-2025-09C</td><td>2027-11-20</td><td>12</td><td>20</td><td>LOW STOCK</td></tr><tr><td>M003</td><td>Cetirizine</td><td>10</td><td>mg</td><td>Tablet</td><td>Cetirizine Dihydrochloride</td><td>Antihistamines</td><td>BCH-2026-03X</td><td>2028-01-10</td><td>8</td><td>15</td><td>LOW STOCK</td></tr><tr><td>M001</td><td>Paracetamol</td><td>500</td><td>mg</td><td>Tablet</td><td>Paracetamol (Acetaminophen)</td><td>Analgesics</td><td>BCH-2026-01A</td><td>2026-08-15</td><td>0</td><td>200</td><td>EXPIRED</td></tr></table></body></html>
